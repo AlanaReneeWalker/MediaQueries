@@ -1,0 +1,77 @@
+@media (min-width: 401px) {
+
+#logo {
+	width: 250px;
+	float: left;
+	margin: 20px;
+}
+
+ul {
+	display: inline-block;
+	float: left;
+	list-style-type: none;
+	margin-top: 95px;
+	margin-left: 85px;
+	padding: 0;
+}
+
+li {
+	display: inline;
+	font-size: 28px;
+	padding: 10px;
+	font-weight: bold;
+}
+
+a {
+	color: gray;
+}
+
+#anvil {
+
+}
+
+.col-md-6 {
+	color: gray;
+}
+}
+
+@media (max-width: 400px) {
+
+#logo {
+	width: 250px;
+	float: left;
+	margin: 0;
+}
+
+ul {
+	float: left;
+	clear: left;
+	list-style-type: none;
+	margin: 5px;
+	padding: 0;
+}
+
+#anvil {
+	display: none;
+}
+
+li {
+	font-size: 28px;
+	padding: 10px;
+	margin: 0;
+	font-weight: bold;
+}
+
+a {
+	color: gray;
+}
+
+.col-md-6 {
+	color: gray;
+}
+
+
+}
+
+
+
